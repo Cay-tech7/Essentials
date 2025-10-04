@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: fruit_basket.ma
-//Last modified: Fri, Oct 03, 2025 03:35:14 PM
+//Last modified: Fri, Oct 03, 2025 03:36:39 PM
 //Codeset: 1252
 requires maya "2026";
 requires "stereoCamera" "10.0";
@@ -11,23 +11,23 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26100)";
-fileInfo "UUID" "FFAA0E12-4F2E-6F09-4DE2-F78863DD23F5";
+fileInfo "UUID" "06042B68-4962-7EA3-CDBE-A0A3AD0ED889";
 createNode transform -s -n "persp";
 	rename -uid "CB22F162-4DEF-97BE-5EA0-0EBB11945883";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 10.424164835610021 4.8891745626226406 -2.2372152010142319 ;
-	setAttr ".r" -type "double3" 160.48229779802833 80.721801091472386 179.99999999999989 ;
-	setAttr ".rp" -type "double3" 0 -4.4408920985006262e-16 -1.7763568394002505e-15 ;
-	setAttr ".rpt" -type "double3" -4.4059147083129608e-15 -2.7833171117057651e-16 3.3763707296955868e-15 ;
+	setAttr ".t" -type "double3" -7.1576681962004276 5.6912599364445535 7.4534489540897457 ;
+	setAttr ".r" -type "double3" -23.898857814696651 -46.765052852470795 2.5537613236187784e-14 ;
+	setAttr ".rp" -type "double3" -4.9960036108132044e-16 0 0 ;
+	setAttr ".rpt" -type "double3" -2.7189332122639275e-15 2.6100712134463964e-16 1.0761314716047304e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "C322FA0C-425D-CED3-D1AB-49A1381561C3";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 14.586964770353665;
+	setAttr ".coi" 14.586964770353671;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" -3.1447349861813585 0.015697589884498875 -0.020523739867703394 ;
+	setAttr ".tp" -type "double3" 2.5585117961439376 -0.2182602602026833 -1.6818101343720828 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 createNode transform -s -n "top";
 	rename -uid "389F9A7B-43D1-8EFB-56AC-49A7306B7132";
