@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: utterly_abducted_scene.ma
-//Last modified: Wed, Dec 03, 2025 06:06:54 PM
+//Last modified: Thu, Dec 04, 2025 11:45:07 AM
 //Codeset: 1252
 file -rdi 1 -ns "ufo" -rfn "ufoRN" -op "v=0;" -typ "mayaAscii" "C:/Users/cayde/Documents/Github/Essentials/DAGV1100and1200/Maya/scenes//ufo.ma";
 file -r -ns "ufo" -dr 1 -rfn "ufoRN" -op "v=0;" -typ "mayaAscii" "C:/Users/cayde/Documents/Github/Essentials/DAGV1100and1200/Maya/scenes//ufo.ma";
@@ -8,13 +8,14 @@ requires maya "2026";
 requires -nodeType "displayPoints" "Type" "2.0a";
 requires "stereoCamera" "10.0";
 requires "mtoa" "5.5.3";
+requires "stereoCamera" "10.0";
 currentUnit -l centimeter -a degree -t film;
 fileInfo "application" "maya";
 fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26200)";
-fileInfo "UUID" "111B8936-49BD-FC00-0B8A-C58254D52F4F";
+fileInfo "UUID" "02F1E8DA-49BB-06E7-B748-EE8A685E39B2";
 createNode transform -s -n "persp";
 	rename -uid "936A0331-4F77-AEE2-039E-34B8255F3B01";
 	setAttr ".v" no;
@@ -8668,7 +8669,7 @@ createNode mesh -n "FarmLand:pCylinderShape3" -p "FarmLand:transform3";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode transform -n "FarmLand:pCylinder4";
 	rename -uid "2970B51F-4AA6-AD82-EDBD-77B9E0A7B849";
-	setAttr ".t" -type "double3" 7.8664032471581606 0 -3.266714118494181 ;
+	setAttr ".t" -type "double3" 7.9937958480885225 0 -3.266714118494181 ;
 	setAttr ".r" -type "double3" 0 89.999999999999972 0 ;
 	setAttr ".s" -type "double3" 0.98883622621264278 0.98883622621264278 0.98883622621264278 ;
 	setAttr ".rp" -type "double3" -5.5511151231257827e-17 1.9991082369805617 0.76145919633670522 ;
@@ -8805,20 +8806,20 @@ createNode mesh -n "FarmLand:pCylinder4Shape" -p "FarmLand:pCylinder4";
 		-2.9802322e-08 -1.6391277e-07 5.9604645e-08 0 1.6391277e-07 -7.4505806e-08 0 -1.6391277e-07 
 		-7.4505806e-08 0;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "6622856D-4331-2DDD-7828-44A36CE05698";
+	rename -uid "4758DE5A-4F0F-1106-5E39-BC9DC02CCC25";
 	setAttr -s 12 ".lnk";
 	setAttr -s 12 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "56BE5E40-4403-9272-62A7-0BB960177F0F";
+	rename -uid "4A37ECBB-47D7-C6FF-2CE1-608AF430AABF";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "203C6DA1-4F38-E4DA-AABB-95AE32A43291";
+	rename -uid "D06D2C92-4514-1949-A3C4-C19C5E26EC64";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "46F2830B-4C6E-F370-B69C-448D1357E4BD";
+	rename -uid "A0EAB648-441A-7F4E-541D-3EB47B36425C";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "0FE4A5F3-473F-6B3C-853A-DA96118561B1";
 	setAttr ".ufem" -type "stringArray" 0  ;
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "1F690F16-4F9D-5186-6A3B-F0A1328BD1B9";
+	rename -uid "DD67AB43-4E8B-8C32-B333-118198ADCF78";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "4936F31B-4CD6-2871-D635-719AAC720B99";
 	setAttr ".g" yes;
