@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CaydenExamples/Level1_cayden.unity
     guid: 1b2a5a9bc95588340b1edd961882c350
+  - enabled: 1
+    path: Assets/Scenes/CaydenExamples/Game_over_screen.unity
+    guid: 855f159516360c6438f0681f36e58599
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
